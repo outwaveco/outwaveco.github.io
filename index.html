@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    OutWave
+  </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="brain.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+  <style>
+    #map{
+      height: 350px;   
+      width: 550px;
+      margin: auto;
+      padding-top: 50px;
+       }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="upper">
+<div class="wrapper">
+  <div class="third"><img src="my logo.jpg" class="headlogo"></div>
+  <div class="third"><div>Home</div></div>
+  <div class="third"><a href="indexmag.html" class="upshop">Shop</a></div>
+</div>
+</div>
+    <span class="b"></span>
+    <span class="b"></span>
+    <span class="b"></span>
+  </div>
+    <div class="middle">
+    <img src=" my logo.jpg" class="img"><br>
+    <div class="ASSNT">OutWave</div>
+    <div class="midlast">Ukrainian Skateboarding Organisation</div>
+    </div>
+      <div class="portfolio">
+      <div class="slider">
+          <figure>
+            <div class="slide">
+                <img src="slide 1.jpg">
+            </div>
+            <div class="slide">
+                <img src="slide 2.jpg">
+            </div>
+            <div class="slide">
+                <img src="slide 3.jpg">
+            </div>
+            <div class="slide">
+                <img src="slide 4.jpg">
+            </div>
+            <div class="slide">
+                <img src="slide 5.jpg">
+            </div>
+          </figure>  
+      </div>
+      </div>
+    <div class="about">About Us<br>
+    <div class="text">We are the skateboarding<br>
+    organisation in Ukraine.<br>
+    We promote skateboarding all over the world<br>
+    And also we are creating clothing for <br>
+    skaters and no-skaters<br>
+    You can buy it below the link.<br>
+    Love skateboarding.</div>
+      <a href="indexmag.html" class="dow">Shop Now</a>
+    </div>
+    <div class="contact">How To Find Us<br>
+    <div class="wrapper">
+    <div class="half">
+            <div id="map">
+        <script>
+          function initMap() {
+            var location = {lat: 50.433, lng: 30.520};
+            var map = new google.maps.Map(document.getElementById('map'),{
+              zoom: 14,
+              center: location
+            });
+            var marker = new google.maps.Marker({
+              position: location,
+              map: map
+            });
+          }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJFb5y6KZv18s2nOsH1EeocIuLT1tz6EE&callback=initMap"></script>
+        </div>
+    </div>
+    <div class="half">
+              <form class="formaa">
+              <h1 class="formc">Contact</h1>
+          <input type="text" name="name" placeholder="Name" class="forma">
+          <input type="email" name="email" placeholder="Email" class="forma">
+          <textarea type="text" name="message" placeholder="Message" class="formam"></textarea>
+          <input type="submit" name="send" value="Send" class="formas">
+        </form>
+    </div>    
+    </div>
+    </div>
+    <div class="lastmid">
+    <div class="wrapper">
+      <div class="half">
+      <div class="loc">LOCATION<br>
+      <div class="krest">Kreshyatik street</div>
+      <div class="krest">Evgeniy / MO 18749</div>
+      </div>
+      </div>
+      <div class="half">
+      <div class="around">AROUND THE WEB</div>
+      <a href="https://www.facebook.com/zheka.bagry" class="socialf"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/IceballJeck?lang=uk" class="socialt"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.instagram.com/outwaveclothing/" class="sociali"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    </div>
+    <div class="last">
+      <div class="lasttext">Powered by Yevshenius 2018</div>
+
+
+    </div>
+</body>
+</html>
