@@ -158,3 +158,24 @@ width: 1920px;
 		left: 0%;
 	}
 }
+@media only screen and (max-width: 480px){
+	body{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.inmerch{
+		width: 99%;
+	}
+	.merch{
+		padding-top: 0px;
+	}
+	.aboutshop{
+		padding-top: 15px;
+	}
+	.uplast{
+		padding-top: 15px;
+	}
+	.img{
+		margin-top: 15px;
+	}
+}

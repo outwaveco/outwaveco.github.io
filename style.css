@@ -296,3 +296,63 @@ font-family: 'Titillium Web', sans-serif;
 .upshop{
 	color: black;
 }
+@media only screen and (max-width: 480px){
+	body{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.img{
+		width: 100%;
+		padding: 0px;
+	}
+	div#map{
+		width: 100%;
+	}
+	.half{
+		width: 100%;
+		padding-top: 15px;
+	}
+	.lastmid{
+		height: 100%;
+	}
+	.slide{
+		height: 100%;
+	}
+	.portfolio{
+		height: 100%;
+	}
+	.mobile{
+		flex-direction: column;
+	}
+	.contact{
+		height: 100%;
+		padding-top: 40px; 
+		padding-bottom: 0px;
+	}
+	.middle{
+		height: 100%;
+	}
+	.midlast{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.ASSNT{
+		padding-top: 15px;
+	}
+	.wrapper{
+		width: 100%;
+	}
+	.about{
+		height: 100%;
+		font-size: 50px;
+		padding-top: 15px;
+		padding-bottom: 0px;
+	}
+	.text{
+		padding-top: 20px;
+		padding-bottom: 35px;
+	}
+	.formam{
+		margin-bottom: 0px;
+	}
+}
